@@ -1,0 +1,26 @@
+{
+  "name": "ai-pod-chrome-extension",
+  "version": "1.0.0",
+  "description": "AI SDK Chrome Extension for podcast generation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd server && bun run --watch index.ts",
+    "start": "cd server && bun run index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "biome format --write",
+    "check": "biome check --write"
+  },
+  "keywords": [
+    "ai",
+    "chrome-extension",
+    "summarization",
+    "podcast"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "bun@1.0.0",
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "ultracite": "5.4.3"
+  }
+}

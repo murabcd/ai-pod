@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun run --watch index.ts",
+    "start": "bun run index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "chrome-extension",
+    "summarization"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "bun@1.0.0",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.38",
+    "ai": "^5.0.48"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@types/node": "^24.5.2",
+    "bun-types": "^1.2.22",
+    "ultracite": "5.4.3"
+  }
+}

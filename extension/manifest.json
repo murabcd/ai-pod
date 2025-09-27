@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Page Podcaster",
+  "version": "1.0.0",
+  "description": "Convert any web page to a podcast and listen to the audio summary",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Podcast this page"
+  }
+}
