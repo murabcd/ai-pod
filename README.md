@@ -27,14 +27,14 @@
 
 ## Model provider
 
-This extension ships with [Openai](https://openai.com/) provider as the default. However, with the [AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Ollama](https://ollama.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://sdk.vercel.ai/providers/ai-sdk-providers) with just a few lines of code.
+This extension ships with [OpenAI](https://openai.com/) provider as the default. However, with the [AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Ollama](https://ollama.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://sdk.vercel.ai/providers/ai-sdk-providers) with just a few lines of code.
 
 - Podcast Model (`gpt-4o-mini`): Versatile GPT-4.1 model for content understanding and summarization
 - Transcribe Model (`gpt-4o-mini-tts`): Specialized for generating high-quality, natural-sounding speech from text
 
 ## Running locally
 
-You will need to use the environment variables to run AI Pod. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
+You will need to use the environment variables to run AI Pod. It's recommended you use `.env` file since its necessary.
 
 > Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your AI accounts.
 
