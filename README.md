@@ -12,7 +12,6 @@
 <p align="center">
   <a href="#features"><strong>Features</strong></a> ·
   <a href="#model-provider"><strong>Model provider</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy your own</strong></a> ·
   <a href="#running-locally"><strong>Running locally</strong></a>
 </p>
 <br/>
@@ -32,14 +31,6 @@ This extension ships with [Openai](https://openai.com/) provider as the default.
 
 - Podcast Model (`gpt-4o-mini`): Versatile GPT-4.1 model for content understanding and summarization
 - Transcribe Model (`gpt-4o-mini-tts`): Specialized for generating high-quality, natural-sounding speech from text
-
-The extension leverages these models through the [OpenAI Agent SDK](https://openai.github.io/openai-agents-js/guides/voice-agents/) to create a sophisticated voice-driven code generation experience with real-time audio processing and intelligent agent handoffs.
-
-## Deploy your own
-
-You can deploy your own version of AI Pod to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicoalbanese%2Fai-sdk-chrome-extension-template&env=OPENAI_API_KEY&envDescription=Environment+variables+for+the+AI+SDK+Page+Podcaster.+OPENAI_API_KEY+is+required+for+text-to-speech+generation.&project-name=ai-sdk-page-podcaster&repository-name=ai-sdk-page-podcaster)
 
 ## Running locally
 
