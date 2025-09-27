@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  A Chrome extension that generates podcast-style audio summaries of web pages using the AI SDK and OpenAI text-to-speech.
+  A Chrome extension that generates podcast-style audio summaries of web pages using the AI SDK.
 </p>
 
 </div>
@@ -21,9 +21,6 @@
 - [AI SDK](https://ai-sdk.dev/)
   - Advanced AI integration for content analysis and podcast generation
   - Real-time web page content processing and summarization
-- [OpenAI Text-to-Speech](https://openai.com/)
-  - High-quality voice generation for podcast-style audio
-  - Natural-sounding speech synthesis for engaging content
 
 ## Model provider
 
@@ -47,13 +44,9 @@ You will need to use the environment variables to run AI Pod. It's recommended y
 2. **Add environment variables**
    - Create a `.env` file in the `server` directory
    - Add your OpenAI API key: `OPENAI_API_KEY=your_api_key_here`
-
-3. **Start the server**
-   ```bash
-   bun dev
    ```
 
-4. **Load the extension**
+3. **Load the extension**
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable "Developer mode" (top right)
    - Click "Load unpacked"
