@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Page Podcaster",
+  "name": "AI Pod",
   "version": "1.0.0",
   "description": "Convert any web page to a podcast and listen to the audio summary",
   "permissions": ["activeTab", "scripting"],
